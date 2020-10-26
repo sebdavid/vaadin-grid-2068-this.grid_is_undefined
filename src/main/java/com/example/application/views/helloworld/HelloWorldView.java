@@ -1,9 +1,11 @@
 package com.example.application.views.helloworld;
 
+import com.vaadin.flow.component.Text;
 import com.vaadin.flow.component.dependency.CssImport;
 import com.vaadin.flow.component.grid.Grid;
 import com.vaadin.flow.component.grid.GridVariant;
 import com.vaadin.flow.component.html.Div;
+import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.data.selection.SelectionEvent;
 import com.vaadin.flow.data.selection.SelectionListener;
@@ -76,7 +78,7 @@ public class HelloWorldView extends VerticalLayout {
         //projects.select(new Project("Project 1"));
 
 
-        add(projects, calendar);
+        add(new H1("Projects"), projects, new H1("Timesheet"), calendar);
     }
 
 
