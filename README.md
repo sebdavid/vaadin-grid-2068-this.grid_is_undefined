@@ -1,3 +1,9 @@
+# Vaadin Test project
+
+This project illustrates the following issue:
+https://github.com/vaadin/vaadin-grid/issues/2068 (Dynamic columns, "this.grid is undefined")
+
+
 # Vaadin 
 
 This is an example project that can be used as a starting point to create your own Vaadin application with Spring Boot.
